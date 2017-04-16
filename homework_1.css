@@ -1,0 +1,199 @@
+* {
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+	width:100%;
+	font-family: 'Philosopher' , sans-serif;
+}
+body {
+	background-image: url("images/cheap_diagonal_fabric.png");
+	background-color: transparent;
+	font-size:100%;
+}
+
+#header {
+	font-size: 2.5em;
+	font-weight: bold;
+	background: transparent;
+	border-color: #cccccc; 
+	padding:25px 20px 25px 20px ;
+	margin-bottom: 0px 0px 10px 0px ;
+	float:left;
+	width: 45%;
+	text-align: left;	
+	border-bottom-style:solid;
+}
+
+#headshot {
+	border-color: #bbceed;
+	border-width: 10px;
+	float: left;
+	object-fit: fill;
+	width:20%;
+	height:20%;
+
+}
+.nav {
+	background: transparent;
+	padding:25px 20px 53px 250px ;
+	margin-bottom: 0px 0px 30px 0px ;
+	width: 45%;
+	float:left;
+	border-bottom-style: solid;
+	border-color: #cccccc;
+}
+
+#middle {
+	border-right-style: solid;
+	border-left-style: solid;
+	border-color: #f2f2f2;
+}
+
+.link {
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+
+.link:hover {
+	color: #d9d9d9;
+}
+
+.link:focus, .link:active {
+	color:#cccccc;
+}
+
+.link2 {
+	object-fit: contain;
+	width: 50px;
+	height: 50px;
+}
+
+.link2:hover {
+	outline: 1px solid gray ;
+	outline-offset: 1px;
+}
+
+.section_left {
+	clear: both;
+	background: radial-gradient(#bac9e2, #d9d9d9);
+	float: left;
+	margin: 20px 20px 20px 40px;
+	padding:25px;
+ 	max-width: 58%; 
+ 	object-fit: contain;
+ 	border-style: solid;
+ 	border-color: #cccccc;
+}
+
+.portfolio {
+	float:left;
+	object-fit: contain;
+	padding: 1%; 
+	width: 28%;
+	height: 28%;
+	margin: 1%;
+	margin-left: 2%;
+}
+
+.article{
+/* 	background: #bec6d3 */;
+	object-fit: contain;
+	text-align: left;
+	display: inline-block;
+}
+
+#headshot {
+	margin-right: 10px;
+}
+
+.article_h {
+	font-size: 1.8em;
+	background: transparent;
+	border-bottom-style: solid;
+	object-fit: contain;
+	border-color: #cccccc; 
+}
+
+#article_p {
+	clear:both;
+	background: transparent;
+	object-fit: contain;
+	border-top-style: solid;
+	border-top-color: #cccccc;
+}
+
+.section_right {
+	padding: 10px;
+	background: radial-gradient(#bac9e2, #d9d9d9);
+	margin: 20px;
+	float: left;
+	width: 25%; 
+	border-style: solid;
+	border-color: #cccccc;
+}
+
+.right_header {
+	background:transparent;
+	border-bottom-style: solid;
+	border-bottom-color:#cccccc;
+	margin-right: 20px;
+	padding: 10px;
+}
+
+.right_article {
+	background:transparent;
+	object-fit: contain;
+	float:left;
+	padding: 0px;
+	margin: 0px -35px 50px 10px;
+}
+
+#footer {
+	clear: both;
+	margin-top: 100%;
+	background: radial-gradient(#cccccc, #d9d9d9);
+	border-style: solid;
+	border-color: #cccccc;
+}
+
+.rcp:hover {
+	width:60px;
+	height:60px;
+    margin-left: -5px;
+    margin-top:-5px;
+}
+
+.icon {
+	margin: 15px 25px 0px 25px;
+	padding-left: 0px;
+	padding-top:10px;
+	width:50px; 
+ 	height:50px;  	
+ 	display: inline-block; 
+	float: left ;
+	position: relative;
+}
+
+a {
+	padding:0;
+}
+
+img {
+	padding:0;
+	object-fit: fill;
+}
+
+.contact {
+	margin: 10px;
+	text-align: left
+}
+
+#message {
+	height: 240px;
+}
+
+.foot_container {
+	margin-top: -500px
+}
