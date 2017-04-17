@@ -2,37 +2,50 @@
 	<head>
 <!-- 		<link rel="stylesheet" type="text/css" href="reset.css"> -->
 		<link rel="stylesheet" type="text/css" href="homework_1.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
 	</head>
 	<body class="body">
-		<section id="header">Jesse Lu</section>
-		<section class="nav">
-			<a class="link" href="homework_1.html">About</a>
-			<a class="link" id="middle" href="portfolio.html">Portfolio</a>
-			<a class="link" href="contact.html">Contact Me</a>
-		</section>
-		<section class="section_left">
-			<h2 class="article_h">Contact</h2>
-			<section class="article">
-				<form class ="contact" action="/action_page.php">
-					<label for="fname"> First Name </label>
-						<input class="contact" type="text" name="firstname" placeholder="Your First Name...">
-					<label for="lname"> Last Name </label>
-						<input class="contact" type="text" name="lastname" placeholder="Your Last Name...">
-					<label for="message"> Message </label>
-						<textarea = class="contact" id="message" type="text" name="message" placeholder="Type here..."></textarea>						
+
+		<div class="row">
+			<section class="header col-9">Jesse Lu</section>
+			<section class="nav col-3">
+				<a class="link" href="homework_1.html">About</a>
+				<a class="link" id="middle" href="portfolio.html">Portfolio</a>
+				<a class="link" href="contact.html">Contact Me</a>
 			</section>
-					<p id="article_p"></p> 
-		</section>
-		<section class="section_right">
-			<h2 class="right_header">Connect With Me</h2>
-					<div class="right_article">
-						<a id= "rc1" class="icon" href="https://www.linkedin.com/in/jesse-lu-577525135/"><img class="rcp" src="images/linkedin.png" alt="github" ></a>
-						<a id="rc2" class="icon" href="https://github.com/Omnomon/"><img class="rcp" src="images/github.png" alt="github"></a>
-						<a id= "rc3" class="icon" href="https://stackoverflow.com/users/7677897/jesse-lu"><img class="rcp" src="images/stackoverflow.png" alt="stackoverflow" ></a>
-					</div>
-		</section>
-		<div class="foot_container">
-			<section id="footer"></section>
 		</div>
+		<div class="row">
+			<section class="section_left col-9">
+				<h2 class="article_h">Contact</h2>
+				<section class="article">
+					<form class ="contact" action="/action_page.php">
+						<label for="fname"> First Name </label>
+							<input class="contact" type="text" name="firstname" placeholder="Your First Name...">
+						<label for="lname"> Last Name </label>
+							<input class="contact" type="text" name="lastname" placeholder="Your Last Name...">
+						<label for="message"> Message </label>
+							<textarea = class="contact" id="message" type="text" name="message" placeholder="Type here..."></textarea>						
+				</section>
+						<p id="article_p"></p> 
+			</section>
+
+
+			<section class="section_right col-3">
+					<h2 class="right_header col-12">Connect With Me</h2>
+					<p class="col-1"></p>
+						<div class="right_article col-10">
+							<a class="icon col-2 len-2" href="https://www.linkedin.com/in/jesse-lu-577525135/"><img class="rcp col-12 len-12" src="images/linkedin.png" alt="github" ></a>
+						<p class="col-2 len-2"></p>
+							<a class="icon col-2 len-2" href="https://github.com/Omnomon/"><img class="rcp col-12 len-12" src="images/github.png" alt="github"></a>
+						<p class="col-2 len-2"></p>
+							<a class="icon col-2 len-2" href="https://stackoverflow.com/users/7677897/jesse-lu"><img class="rcp col-12 len-12" src="images/stackoverflow.png" alt="stackoverflow" ></a>
+						</div>
+					<p class="col-1"></p>
+			</section>
+		</div>
+
+			<div class="foot_container">
+				<section id="footer"></section>
+			</div>
 	</body>
